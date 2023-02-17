@@ -1,0 +1,9 @@
+---
+- name: "Display message"
+  hosts: localhost
+  connection: local
+  
+  tasks:
+    - name: Message
+      msg:
+        debug: My message
